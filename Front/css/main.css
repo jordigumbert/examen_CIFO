@@ -39,3 +39,11 @@ button {
     margin-top: 40px ; 
 }
 
+#longCount {
+
+    text-align: right;
+    color: black ; 
+    font-size: 10px ;
+    margin-top: 5px;
+}
+

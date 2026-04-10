@@ -8,10 +8,15 @@ const path = require("path");
 
 
 
-router.get("/", redirectIfLogged, (req, res) => {
+router.get("/",  (req, res) => {
     res.sendFile(path.join(__dirname, "..", "..", "front", "index.html"));
 });
 
+router.get("/dades", (req, res) => {
+    res.sendFile(path.join(__dirname, "..", "..", "front", "index.html"));
+});
+
+/*
 router.get("/me", authPage, (req, res) => {
     res.sendFile(path.join(__dirname, "..", "..", "front", "me.html"));
 });
@@ -20,7 +25,7 @@ router.get("/todos", authPage, (req, res) => {
     res.sendFile(path.join(__dirname, "..", "..", "front", "todos.html"));
 });
 
-
+*/
 
 
 //////////////////////////////////// EXPORTS //////////////////////////////////////

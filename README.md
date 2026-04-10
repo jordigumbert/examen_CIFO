@@ -63,3 +63,15 @@ creem carpetes i fitxer .env/.example
 # git merge origin/main
     Already up to date.
 git merge APIserver
+
+
+El servidor ja respon a localhost:3000 i redirecciona a front/index.html
+els inputs ja tenen el seu text controlat per guardar en variables posteriorment
+el boto fa de submit i reacciona al click.
+
+
+ya se puede llegar a index.html desde localhost:3000 y también por localhost:3000/dades 
+ ( habría que hacer paginas diferentees para cada endpoint)
+
+ git commit 
+ 
