@@ -44,3 +44,9 @@ afegit directament a package.json
 # mkdir -p Back/routes
 
 creem carpetes i fitxer .env/.example
+
+
+# git add .
+# git commit -m "creat .env "
+
+
