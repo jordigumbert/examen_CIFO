@@ -51,3 +51,14 @@ creem carpetes i fitxer .env/.example
 # git add .
 # git commit -m "creat SQL i pujat al xampp des de workbench."
 
+# git push
+    pugem a github ara que sabem que no puja .env ni node_modules
+
+
+# git branch -m APIserver
+    branca per fer la conexió a al servidor SQL 
+    creem back/server.js i hi creem esquelet del servidor. 
+
+
+# git merge origin/main
+    Already up to date.
