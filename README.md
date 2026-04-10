@@ -35,3 +35,12 @@ afegit directament a package.json
   
   per que s'instal·lin les dependeències ja. 
 
+# git add . 
+    guardem la config. 
+# git commit -m "creació de node modules i dependencies a  package json "
+
+
+# mkdir -p Front/{js,css}
+# mkdir -p Back/routes
+
+creem carpetes i fitxer .env/.example
