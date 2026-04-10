@@ -2,34 +2,34 @@ const forms = document.querySelectorAll("form");
 const NomUsuari = document.querySelector("#InputForm");
 const TextUsuari = document.querySelector("#InputFormDades");
 const SubmitFormDades = document.querySelector("#SubmitFormDades");
-
-console.log(count);
-
-var count = 1;
+let count = 0; 
 
 /*
 console.log(NomUsuari);
 console.log(TextUsuari);
 */
 
-TextUsuari.addEventListener("input", (event) => {
-    event.preventDefault();
+TextUsuari.addEventListener("input", () => {
+    
     //console.log(TextUsuari.value)
     console.log("escrivint en textarea");
-    count += 1
+    count += 1 ;
+    console.log(count);
+    
 });
 
-SubmitFormDades.addEventListener("submit", (event) => {
+SubmitFormDades.addEventListener("click", (event) => {
     event.preventDefault();
-    console.log(NomUsuari.value , "\n" , TextUsuari.value);
-    count += 10
+    // console.log(NomUsuari.value , "\n" , TextUsuari.value);
+    count += 10 ;
+    console.log(count);
 })
 
-NomUsuari.addEventListener("submit", (event) => {
+NomUsuari.addEventListener("input", (event) => {
     event.preventDefault();
-    console.log("submit del boto");
-    console.log("escrivint en textarea");
-    count += 100
+    console.log("input del nom");
+    count += 100 ;
+    console.log(count);
 });
 
 
