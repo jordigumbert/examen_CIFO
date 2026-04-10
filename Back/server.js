@@ -1,4 +1,6 @@
 require('dotenv').config();
+
+
 // per fer servir dades de .env
 const express = require("express");
 // const cookieParser = require("cookie-parser");
@@ -7,14 +9,20 @@ const path = require("path"); // si tenim temps mirem de fer-ho OS unaware
 const server = new express(); // creem un objecte de classe express amb nom server per fer-lo servir. 
 
 const pageRoutes = require("./routes/pages.js");
-server.use("/", pageRoutes);
+const EPdades = require("./routes/dades.js");
 
-// require("./mysql_conn.js"); 
+server.use("/", pageRoutes);
+server.use("/", EPdades);
+
+require("./SQL_conn.js"); 
 
 // server.use(cookieParser());    // Middleware per les cookies 
 server.use(express.json());    // 
 //  (CSS, JS del front)
 server.use(express.static(path.join(__dirname, "..",  "front")));
+
+
+
 
 
 // console.log(process.env.SERVER_PORT);

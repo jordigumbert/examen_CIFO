@@ -9,11 +9,14 @@ const path = require("path");
 
 
 router.get("/",  (req, res) => {
+    console.log("enviando index.html");
+    
     res.sendFile(path.join(__dirname, "..", "..", "front", "index.html"));
 });
 
 router.get("/dades", (req, res) => {
-    res.sendFile(path.join(__dirname, "..", "..", "front", "index.html"));
+    console.log("enviando otro.html");
+    res.sendFile(path.join(__dirname, "..", "..", "front", "otro.html"));
 });
 
 /*

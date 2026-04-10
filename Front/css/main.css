@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 */
-form {
+form { /* por tipo */
     padding: 10px 0px 25px 0px;
     flex: 1;
     display: flex;
@@ -16,18 +16,18 @@ form {
     color: rgb(0, 0, 0);
 }
 
-form label {
+form label { /* por tipo dentro de otro*/
     color: #520b0b;
     margin-top: 25px ;
 
 }
 
 
-.IniForm {
+.IniForm { /* por class */
     background-color: #555;    
 }
 
-#InputFormDades  {
+#InputFormDades  { /* por ID */
     height: 50px ;
     width: 450px ;
 }
