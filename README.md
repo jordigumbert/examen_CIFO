@@ -1,3 +1,30 @@
+    Para desplegar se necesita tener un hosting que admita "node" y otro que admita SQL ( casi todos )  
+    ahí,
+cd path/to/clone/to
+git clone https://github.com/jordigumbert/examen_CIFO.git
+
+    una vez bajado,
+ cd Back 
+ npm i
+
+    para que se descarguen los npm del package json 
+    ahora ya se podrian cambiar las configs ( )
+
+cp .env.example .env 
+modificar al gusto.. .aunque por hora se está usando, creo 
+
+
+arrancar un servidor SQL y subir el archivo DDBB.sql de Back/ 
+ejecutar el codigo en el servidor SQL 
+
+configurar rutas del .env ( cuando se utilicen )
+
+en teoria ahora con las IP/FQDN de los servidores, se debería de poder acceder. 
+
+
+
+
+
 # examen_CIFO
 Pràctica final de mòdul 
 
@@ -75,3 +102,5 @@ ya se puede llegar a index.html desde localhost:3000 y también por localhost:30
 
  git commit 
  
+
+ .... he dejado de anotar todo aqui xD
