@@ -48,5 +48,6 @@ creem carpetes i fitxer .env/.example
 
 # git add .
 # git commit -m "creat .env "
-
+# git add .
+# git commit -m "creat SQL i pujat al xampp des de workbench."
 
